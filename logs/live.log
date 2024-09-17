@@ -1,11 +1,11 @@
-2024-09-16T16:54:52.581+05:30  INFO 52499 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Starting KafkaProducerExample using Java 17.0.12 with PID 52499 (/home/krishnab/Desktop/true-track-sharing/kafka-producer-example/target/classes started by krishnab in /home/krishnab/Desktop/true-track-sharing/kafka-producer-example)
-2024-09-16T16:54:52.588+05:30  INFO 52499 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : No active profile set, falling back to 1 default profile: "default"
-2024-09-16T16:54:54.900+05:30  INFO 52499 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
-2024-09-16T16:54:54.933+05:30  INFO 52499 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-16T16:54:54.934+05:30  INFO 52499 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-16T16:54:55.036+05:30  INFO 52499 --- [kafka-with-spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-16T16:54:55.038+05:30  INFO 52499 --- [kafka-with-spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2288 ms
-2024-09-16T16:54:56.134+05:30  INFO 52499 --- [kafka-with-spring] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+2024-09-17T13:28:19.765+05:30  INFO 6163 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Starting KafkaProducerExample using Java 17.0.12 with PID 6163 (/home/krishnab/Desktop/true-track-sharing/kafka-producer-example/target/classes started by krishnab in /home/krishnab/Desktop/true-track-sharing/kafka-producer-example)
+2024-09-17T13:28:19.773+05:30  INFO 6163 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : No active profile set, falling back to 1 default profile: "default"
+2024-09-17T13:28:22.911+05:30  INFO 6163 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2024-09-17T13:28:22.946+05:30  INFO 6163 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-17T13:28:22.946+05:30  INFO 6163 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17T13:28:23.069+05:30  INFO 6163 --- [kafka-with-spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-17T13:28:23.070+05:30  INFO 6163 --- [kafka-with-spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3080 ms
+2024-09-17T13:28:24.347+05:30  INFO 6163 --- [kafka-with-spring] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
 	auto.include.jmx.reporter = true
 	bootstrap.controllers = []
 	bootstrap.servers = [localhost:9092]
@@ -79,219 +79,19 @@
 	ssl.truststore.password = null
 	ssl.truststore.type = JKS
 
-2024-09-16T16:54:56.259+05:30  INFO 52499 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
-2024-09-16T16:54:56.262+05:30  INFO 52499 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
-2024-09-16T16:54:56.262+05:30  INFO 52499 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726485896257
-2024-09-16T16:54:56.962+05:30  INFO 52499 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for kafka-with-spring-admin-0 unregistered
-2024-09-16T16:54:56.979+05:30  INFO 52499 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2024-09-16T16:54:56.980+05:30  INFO 52499 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2024-09-16T16:54:56.981+05:30  INFO 52499 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2024-09-16T16:54:57.014+05:30  INFO 52499 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
-2024-09-16T16:54:57.045+05:30  INFO 52499 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Started KafkaProducerExample in 5.408 seconds (process running for 6.576)
-2024-09-16T16:55:32.808+05:30  INFO 52499 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-16T16:55:32.809+05:30  INFO 52499 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-16T16:55:32.813+05:30  INFO 52499 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-09-16T16:55:32.849+05:30  WARN 52499 --- [kafka-with-spring] [http-nio-9191-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2024-09-16T16:56:29.941+05:30  INFO 52499 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
-	acks = -1
-	auto.include.jmx.reporter = true
-	batch.size = 16384
-	bootstrap.servers = [localhost:9092]
-	buffer.memory = 33554432
-	client.dns.lookup = use_all_dns_ips
-	client.id = kafka-with-spring-producer-1
-	compression.type = none
-	connections.max.idle.ms = 540000
-	delivery.timeout.ms = 120000
-	enable.idempotence = true
-	enable.metrics.push = true
-	interceptor.classes = []
-	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
-	linger.ms = 0
-	max.block.ms = 60000
-	max.in.flight.requests.per.connection = 5
-	max.request.size = 1048576
-	metadata.max.age.ms = 300000
-	metadata.max.idle.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partitioner.adaptive.partitioning.enable = true
-	partitioner.availability.timeout.ms = 0
-	partitioner.class = null
-	partitioner.ignore.keys = false
-	receive.buffer.bytes = 32768
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retries = 2147483647
-	retry.backoff.max.ms = 1000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.connect.timeout.ms = null
-	sasl.login.read.timeout.ms = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.login.retry.backoff.max.ms = 10000
-	sasl.login.retry.backoff.ms = 100
-	sasl.mechanism = GSSAPI
-	sasl.oauthbearer.clock.skew.seconds = 30
-	sasl.oauthbearer.expected.audience = null
-	sasl.oauthbearer.expected.issuer = null
-	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
-	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
-	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
-	sasl.oauthbearer.jwks.endpoint.url = null
-	sasl.oauthbearer.scope.claim.name = scope
-	sasl.oauthbearer.sub.claim.name = sub
-	sasl.oauthbearer.token.endpoint.url = null
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	socket.connection.setup.timeout.max.ms = 30000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	transaction.timeout.ms = 60000
-	transactional.id = null
-	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
-
-2024-09-16T16:56:29.992+05:30  INFO 52499 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
-2024-09-16T16:56:30.011+05:30  INFO 52499 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Instantiated an idempotent producer.
-2024-09-16T16:56:30.059+05:30  INFO 52499 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
-2024-09-16T16:56:30.059+05:30  INFO 52499 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
-2024-09-16T16:56:30.060+05:30  INFO 52499 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726485990059
-2024-09-16T16:56:30.086+05:30  INFO 52499 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=kafka-with-spring-producer-1] Cluster ID: 2_KdmikvTKqnUIGncrkRiQ
-2024-09-16T16:56:30.101+05:30  INFO 52499 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=kafka-with-spring-producer-1] ProducerId set to 2014 with epoch 0
-2024-09-16T17:03:04.505+05:30  INFO 52499 --- [kafka-with-spring] [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2024-09-16T17:03:04.523+05:30  INFO 52499 --- [kafka-with-spring] [RMI TCP Connection(17)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
-2024-09-16T17:03:04.546+05:30  INFO 52499 --- [kafka-with-spring] [RMI TCP Connection(17)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2024-09-16T17:03:04.547+05:30  INFO 52499 --- [kafka-with-spring] [RMI TCP Connection(17)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2024-09-16T17:03:04.547+05:30  INFO 52499 --- [kafka-with-spring] [RMI TCP Connection(17)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
-2024-09-16T17:03:04.547+05:30  INFO 52499 --- [kafka-with-spring] [RMI TCP Connection(17)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2024-09-16T17:03:04.549+05:30  INFO 52499 --- [kafka-with-spring] [RMI TCP Connection(17)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for kafka-with-spring-producer-1 unregistered
-2024-09-16T17:08:21.550+05:30  INFO 53961 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Starting KafkaProducerExample using Java 17.0.12 with PID 53961 (/home/krishnab/Desktop/true-track-sharing/kafka-producer-example/target/classes started by krishnab in /home/krishnab/Desktop/true-track-sharing/kafka-producer-example)
-2024-09-16T17:08:21.561+05:30  INFO 53961 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : No active profile set, falling back to 1 default profile: "default"
-2024-09-16T17:08:23.784+05:30  INFO 53961 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
-2024-09-16T17:08:23.819+05:30  INFO 53961 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-16T17:08:23.820+05:30  INFO 53961 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-16T17:08:23.923+05:30  INFO 53961 --- [kafka-with-spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-16T17:08:23.925+05:30  INFO 53961 --- [kafka-with-spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2227 ms
-2024-09-16T17:08:24.989+05:30  INFO 53961 --- [kafka-with-spring] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
-	auto.include.jmx.reporter = true
-	bootstrap.controllers = []
-	bootstrap.servers = [localhost:9092]
-	client.dns.lookup = use_all_dns_ips
-	client.id = kafka-with-spring-admin-0
-	connections.max.idle.ms = 300000
-	default.api.timeout.ms = 60000
-	enable.metrics.push = true
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retries = 2147483647
-	retry.backoff.max.ms = 1000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.connect.timeout.ms = null
-	sasl.login.read.timeout.ms = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.login.retry.backoff.max.ms = 10000
-	sasl.login.retry.backoff.ms = 100
-	sasl.mechanism = GSSAPI
-	sasl.oauthbearer.clock.skew.seconds = 30
-	sasl.oauthbearer.expected.audience = null
-	sasl.oauthbearer.expected.issuer = null
-	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
-	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
-	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
-	sasl.oauthbearer.jwks.endpoint.url = null
-	sasl.oauthbearer.scope.claim.name = scope
-	sasl.oauthbearer.sub.claim.name = sub
-	sasl.oauthbearer.token.endpoint.url = null
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	socket.connection.setup.timeout.max.ms = 30000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-
-2024-09-16T17:08:25.137+05:30  INFO 53961 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
-2024-09-16T17:08:25.140+05:30  INFO 53961 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
-2024-09-16T17:08:25.140+05:30  INFO 53961 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726486705134
-2024-09-16T17:08:25.897+05:30  INFO 53961 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for kafka-with-spring-admin-0 unregistered
-2024-09-16T17:08:25.912+05:30  INFO 53961 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2024-09-16T17:08:25.912+05:30  INFO 53961 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2024-09-16T17:08:25.913+05:30  INFO 53961 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2024-09-16T17:08:25.958+05:30  INFO 53961 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
-2024-09-16T17:08:26.010+05:30  INFO 53961 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Started KafkaProducerExample in 5.463 seconds (process running for 6.794)
-2024-09-16T17:08:45.476+05:30  INFO 53961 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-16T17:08:45.477+05:30  INFO 53961 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-16T17:08:45.480+05:30  INFO 53961 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2024-09-16T17:08:45.699+05:30  INFO 53961 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+2024-09-17T13:28:24.480+05:30  INFO 6163 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-17T13:28:24.482+05:30  INFO 6163 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-17T13:28:24.482+05:30  INFO 6163 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726559904478
+2024-09-17T13:28:26.016+05:30  INFO 6163 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for kafka-with-spring-admin-0 unregistered
+2024-09-17T13:28:26.036+05:30  INFO 6163 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-17T13:28:26.036+05:30  INFO 6163 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-17T13:28:26.040+05:30  INFO 6163 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-17T13:28:26.078+05:30  INFO 6163 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2024-09-17T13:28:26.118+05:30  INFO 6163 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Started KafkaProducerExample in 7.646 seconds (process running for 9.735)
+2024-09-17T13:30:51.983+05:30  INFO 6163 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17T13:30:51.984+05:30  INFO 6163 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-17T13:30:51.988+05:30  INFO 6163 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-09-17T13:30:52.092+05:30  INFO 6163 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
 	acks = -1
 	auto.include.jmx.reporter = true
 	batch.size = 16384
@@ -383,29 +183,29 @@
 	transactional.id = null
 	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
 
-2024-09-16T17:08:45.747+05:30  INFO 53961 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
-2024-09-16T17:08:45.774+05:30  INFO 53961 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Instantiated an idempotent producer.
-2024-09-16T17:08:45.828+05:30  INFO 53961 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
-2024-09-16T17:08:45.828+05:30  INFO 53961 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
-2024-09-16T17:08:45.829+05:30  INFO 53961 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726486725828
-2024-09-16T17:08:45.862+05:30  INFO 53961 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=kafka-with-spring-producer-1] Cluster ID: 2_KdmikvTKqnUIGncrkRiQ
-2024-09-16T17:08:45.868+05:30  INFO 53961 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=kafka-with-spring-producer-1] ProducerId set to 2015 with epoch 0
-2024-09-16T17:17:49.877+05:30  INFO 53961 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=kafka-with-spring-producer-1] Node -1 disconnected.
-2024-09-16T17:21:22.365+05:30  INFO 53961 --- [kafka-with-spring] [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2024-09-16T17:21:22.382+05:30  INFO 53961 --- [kafka-with-spring] [RMI TCP Connection(20)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
-2024-09-16T17:21:22.416+05:30  INFO 53961 --- [kafka-with-spring] [RMI TCP Connection(20)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2024-09-16T17:21:22.417+05:30  INFO 53961 --- [kafka-with-spring] [RMI TCP Connection(20)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2024-09-16T17:21:22.418+05:30  INFO 53961 --- [kafka-with-spring] [RMI TCP Connection(20)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
-2024-09-16T17:21:22.418+05:30  INFO 53961 --- [kafka-with-spring] [RMI TCP Connection(20)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2024-09-16T17:21:22.420+05:30  INFO 53961 --- [kafka-with-spring] [RMI TCP Connection(20)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for kafka-with-spring-producer-1 unregistered
-2024-09-16T17:42:33.471+05:30  INFO 59444 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Starting KafkaProducerExample using Java 17.0.12 with PID 59444 (/home/krishnab/Desktop/true-track-sharing/kafka-producer-example/target/classes started by krishnab in /home/krishnab/Desktop/true-track-sharing/kafka-producer-example)
-2024-09-16T17:42:33.494+05:30  INFO 59444 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : No active profile set, falling back to 1 default profile: "default"
-2024-09-16T17:42:37.320+05:30  INFO 59444 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
-2024-09-16T17:42:37.357+05:30  INFO 59444 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-16T17:42:37.358+05:30  INFO 59444 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-16T17:42:37.531+05:30  INFO 59444 --- [kafka-with-spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-16T17:42:37.532+05:30  INFO 59444 --- [kafka-with-spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3618 ms
-2024-09-16T17:42:39.493+05:30  INFO 59444 --- [kafka-with-spring] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+2024-09-17T13:30:52.155+05:30  INFO 6163 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-09-17T13:30:52.183+05:30  INFO 6163 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Instantiated an idempotent producer.
+2024-09-17T13:30:52.235+05:30  INFO 6163 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-17T13:30:52.236+05:30  INFO 6163 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-17T13:30:52.236+05:30  INFO 6163 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726560052235
+2024-09-17T13:30:52.280+05:30  INFO 6163 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=kafka-with-spring-producer-1] Cluster ID: sChIhnjYQ46IPqKRMvT7vg
+2024-09-17T13:30:52.312+05:30  INFO 6163 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=kafka-with-spring-producer-1] ProducerId set to 0 with epoch 0
+2024-09-17T13:39:52.313+05:30  INFO 6163 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=kafka-with-spring-producer-1] Node -1 disconnected.
+2024-09-17T13:41:04.360+05:30  INFO 6163 --- [kafka-with-spring] [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-17T13:41:04.381+05:30  INFO 6163 --- [kafka-with-spring] [RMI TCP Connection(21)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-09-17T13:41:04.407+05:30  INFO 6163 --- [kafka-with-spring] [RMI TCP Connection(21)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-17T13:41:04.411+05:30  INFO 6163 --- [kafka-with-spring] [RMI TCP Connection(21)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-17T13:41:04.412+05:30  INFO 6163 --- [kafka-with-spring] [RMI TCP Connection(21)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-09-17T13:41:04.413+05:30  INFO 6163 --- [kafka-with-spring] [RMI TCP Connection(21)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-17T13:41:04.417+05:30  INFO 6163 --- [kafka-with-spring] [RMI TCP Connection(21)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for kafka-with-spring-producer-1 unregistered
+2024-09-17T13:41:11.158+05:30  INFO 7732 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Starting KafkaProducerExample using Java 17.0.12 with PID 7732 (/home/krishnab/Desktop/true-track-sharing/kafka-producer-example/target/classes started by krishnab in /home/krishnab/Desktop/true-track-sharing/kafka-producer-example)
+2024-09-17T13:41:11.168+05:30  INFO 7732 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : No active profile set, falling back to 1 default profile: "default"
+2024-09-17T13:41:13.735+05:30  INFO 7732 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2024-09-17T13:41:13.769+05:30  INFO 7732 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-17T13:41:13.770+05:30  INFO 7732 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17T13:41:13.887+05:30  INFO 7732 --- [kafka-with-spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-17T13:41:13.888+05:30  INFO 7732 --- [kafka-with-spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2520 ms
+2024-09-17T13:41:15.239+05:30  INFO 7732 --- [kafka-with-spring] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
 	auto.include.jmx.reporter = true
 	bootstrap.controllers = []
 	bootstrap.servers = [localhost:9092]
@@ -479,19 +279,110 @@
 	ssl.truststore.password = null
 	ssl.truststore.type = JKS
 
-2024-09-16T17:42:39.743+05:30  INFO 59444 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
-2024-09-16T17:42:39.756+05:30  INFO 59444 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
-2024-09-16T17:42:39.756+05:30  INFO 59444 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726488759740
-2024-09-16T17:42:40.929+05:30  INFO 59444 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for kafka-with-spring-admin-0 unregistered
-2024-09-16T17:42:40.966+05:30  INFO 59444 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2024-09-16T17:42:40.966+05:30  INFO 59444 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2024-09-16T17:42:40.967+05:30  INFO 59444 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2024-09-16T17:42:41.124+05:30  INFO 59444 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
-2024-09-16T17:42:41.205+05:30  INFO 59444 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Started KafkaProducerExample in 9.936 seconds (process running for 11.701)
-2024-09-16T17:42:58.012+05:30  INFO 59444 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-16T17:42:58.013+05:30  INFO 59444 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-16T17:42:58.017+05:30  INFO 59444 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2024-09-16T17:42:58.332+05:30  INFO 59444 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+2024-09-17T13:41:15.377+05:30  INFO 7732 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-17T13:41:15.379+05:30  INFO 7732 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-17T13:41:15.380+05:30  INFO 7732 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726560675375
+2024-09-17T13:41:16.155+05:30  INFO 7732 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for kafka-with-spring-admin-0 unregistered
+2024-09-17T13:41:16.180+05:30  INFO 7732 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-17T13:41:16.182+05:30  INFO 7732 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-17T13:41:16.184+05:30  INFO 7732 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-17T13:41:16.247+05:30  INFO 7732 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2024-09-17T13:41:16.294+05:30  INFO 7732 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Started KafkaProducerExample in 6.361 seconds (process running for 8.433)
+2024-09-17T13:43:29.926+05:30  INFO 7732 --- [kafka-with-spring] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-17T13:43:35.425+05:30  INFO 8075 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Starting KafkaProducerExample using Java 17.0.12 with PID 8075 (/home/krishnab/Desktop/true-track-sharing/kafka-producer-example/target/classes started by krishnab in /home/krishnab/Desktop/true-track-sharing/kafka-producer-example)
+2024-09-17T13:43:35.433+05:30  INFO 8075 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : No active profile set, falling back to 1 default profile: "default"
+2024-09-17T13:43:37.531+05:30  INFO 8075 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2024-09-17T13:43:37.561+05:30  INFO 8075 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-17T13:43:37.561+05:30  INFO 8075 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17T13:43:37.680+05:30  INFO 8075 --- [kafka-with-spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-17T13:43:37.682+05:30  INFO 8075 --- [kafka-with-spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2117 ms
+2024-09-17T13:43:38.599+05:30  INFO 8075 --- [kafka-with-spring] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = kafka-with-spring-admin-0
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-09-17T13:43:38.708+05:30  INFO 8075 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-17T13:43:38.711+05:30  INFO 8075 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-17T13:43:38.711+05:30  INFO 8075 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726560818706
+2024-09-17T13:43:39.306+05:30  INFO 8075 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for kafka-with-spring-admin-0 unregistered
+2024-09-17T13:43:39.320+05:30  INFO 8075 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-17T13:43:39.320+05:30  INFO 8075 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-17T13:43:39.321+05:30  INFO 8075 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-17T13:43:39.351+05:30  INFO 8075 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2024-09-17T13:43:39.375+05:30  INFO 8075 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Started KafkaProducerExample in 4.934 seconds (process running for 6.128)
+2024-09-17T13:44:00.585+05:30  INFO 8075 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17T13:44:00.585+05:30  INFO 8075 --- [kafka-with-spring] [http-nio-9191-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-17T13:44:00.589+05:30  INFO 8075 --- [kafka-with-spring] [http-nio-9191-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-17T13:44:00.727+05:30  INFO 8075 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
 	acks = -1
 	auto.include.jmx.reporter = true
 	batch.size = 16384
@@ -583,28 +474,28 @@
 	transactional.id = null
 	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
 
-2024-09-16T17:42:58.402+05:30  INFO 59444 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
-2024-09-16T17:42:58.438+05:30  INFO 59444 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Instantiated an idempotent producer.
-2024-09-16T17:42:58.504+05:30  INFO 59444 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
-2024-09-16T17:42:58.506+05:30  INFO 59444 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
-2024-09-16T17:42:58.506+05:30  INFO 59444 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726488778504
-2024-09-16T17:42:58.548+05:30  INFO 59444 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=kafka-with-spring-producer-1] Cluster ID: 2_KdmikvTKqnUIGncrkRiQ
-2024-09-16T17:42:58.570+05:30  INFO 59444 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=kafka-with-spring-producer-1] ProducerId set to 2016 with epoch 0
-2024-09-16T17:50:32.844+05:30  INFO 59444 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2024-09-16T17:50:32.860+05:30  INFO 59444 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
-2024-09-16T17:50:32.882+05:30  INFO 59444 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2024-09-16T17:50:32.882+05:30  INFO 59444 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2024-09-16T17:50:32.883+05:30  INFO 59444 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
-2024-09-16T17:50:32.883+05:30  INFO 59444 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2024-09-16T17:50:32.888+05:30  INFO 59444 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for kafka-with-spring-producer-1 unregistered
-2024-09-16T17:59:48.247+05:30  INFO 60900 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Starting KafkaProducerExample using Java 17.0.12 with PID 60900 (/home/krishnab/Desktop/true-track-sharing/kafka-producer-example/target/classes started by krishnab in /home/krishnab/Desktop/true-track-sharing/kafka-producer-example)
-2024-09-16T17:59:48.276+05:30  INFO 60900 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : No active profile set, falling back to 1 default profile: "default"
-2024-09-16T17:59:53.842+05:30  INFO 60900 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
-2024-09-16T17:59:53.897+05:30  INFO 60900 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-16T17:59:53.898+05:30  INFO 60900 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-16T17:59:54.139+05:30  INFO 60900 --- [kafka-with-spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-16T17:59:54.140+05:30  INFO 60900 --- [kafka-with-spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5472 ms
-2024-09-16T17:59:56.709+05:30  INFO 60900 --- [kafka-with-spring] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+2024-09-17T13:44:00.793+05:30  INFO 8075 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-09-17T13:44:00.827+05:30  INFO 8075 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Instantiated an idempotent producer.
+2024-09-17T13:44:00.886+05:30  INFO 8075 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-17T13:44:00.886+05:30  INFO 8075 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-17T13:44:00.886+05:30  INFO 8075 --- [kafka-with-spring] [http-nio-9191-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726560840886
+2024-09-17T13:44:00.935+05:30  INFO 8075 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=kafka-with-spring-producer-1] Cluster ID: sChIhnjYQ46IPqKRMvT7vg
+2024-09-17T13:44:00.945+05:30  INFO 8075 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=kafka-with-spring-producer-1] ProducerId set to 1 with epoch 0
+2024-09-17T13:44:46.644+05:30  INFO 8075 --- [kafka-with-spring] [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-17T13:44:46.713+05:30  INFO 8075 --- [kafka-with-spring] [RMI TCP Connection(9)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-09-17T13:44:46.739+05:30  INFO 8075 --- [kafka-with-spring] [RMI TCP Connection(9)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-17T13:44:46.739+05:30  INFO 8075 --- [kafka-with-spring] [RMI TCP Connection(9)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-17T13:44:46.740+05:30  INFO 8075 --- [kafka-with-spring] [RMI TCP Connection(9)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-09-17T13:44:46.740+05:30  INFO 8075 --- [kafka-with-spring] [RMI TCP Connection(9)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-17T13:44:46.742+05:30  INFO 8075 --- [kafka-with-spring] [RMI TCP Connection(9)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for kafka-with-spring-producer-1 unregistered
+2024-09-17T13:44:50.103+05:30  INFO 8277 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Starting KafkaProducerExample using Java 17.0.12 with PID 8277 (/home/krishnab/Desktop/true-track-sharing/kafka-producer-example/target/classes started by krishnab in /home/krishnab/Desktop/true-track-sharing/kafka-producer-example)
+2024-09-17T13:44:50.110+05:30  INFO 8277 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : No active profile set, falling back to 1 default profile: "default"
+2024-09-17T13:44:52.383+05:30  INFO 8277 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2024-09-17T13:44:52.412+05:30  INFO 8277 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-17T13:44:52.413+05:30  INFO 8277 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17T13:44:52.524+05:30  INFO 8277 --- [kafka-with-spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-17T13:44:52.525+05:30  INFO 8277 --- [kafka-with-spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2275 ms
+2024-09-17T13:44:53.537+05:30  INFO 8277 --- [kafka-with-spring] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
 	auto.include.jmx.reporter = true
 	bootstrap.controllers = []
 	bootstrap.servers = [localhost:9092]
@@ -678,19 +569,110 @@
 	ssl.truststore.password = null
 	ssl.truststore.type = JKS
 
-2024-09-16T17:59:56.895+05:30  INFO 60900 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
-2024-09-16T17:59:56.899+05:30  INFO 60900 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
-2024-09-16T17:59:56.901+05:30  INFO 60900 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726489796892
-2024-09-16T17:59:58.263+05:30  INFO 60900 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for kafka-with-spring-admin-0 unregistered
-2024-09-16T17:59:58.305+05:30  INFO 60900 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2024-09-16T17:59:58.306+05:30  INFO 60900 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2024-09-16T17:59:58.306+05:30  INFO 60900 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2024-09-16T17:59:58.440+05:30  INFO 60900 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
-2024-09-16T17:59:58.533+05:30  INFO 60900 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Started KafkaProducerExample in 12.44 seconds (process running for 14.982)
-2024-09-16T18:01:11.252+05:30  INFO 60900 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-16T18:01:11.253+05:30  INFO 60900 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-09-16T18:01:11.257+05:30  INFO 60900 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-09-16T18:01:11.497+05:30  INFO 60900 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+2024-09-17T13:44:53.647+05:30  INFO 8277 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-17T13:44:53.650+05:30  INFO 8277 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-17T13:44:53.650+05:30  INFO 8277 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726560893645
+2024-09-17T13:44:54.317+05:30  INFO 8277 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for kafka-with-spring-admin-0 unregistered
+2024-09-17T13:44:54.331+05:30  INFO 8277 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-17T13:44:54.332+05:30  INFO 8277 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-17T13:44:54.332+05:30  INFO 8277 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-17T13:44:54.366+05:30  INFO 8277 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2024-09-17T13:44:54.397+05:30  INFO 8277 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Started KafkaProducerExample in 5.393 seconds (process running for 6.583)
+2024-09-17T13:45:16.096+05:30  INFO 8277 --- [kafka-with-spring] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-17T13:45:19.027+05:30  INFO 8421 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Starting KafkaProducerExample using Java 17.0.12 with PID 8421 (/home/krishnab/Desktop/true-track-sharing/kafka-producer-example/target/classes started by krishnab in /home/krishnab/Desktop/true-track-sharing/kafka-producer-example)
+2024-09-17T13:45:19.034+05:30  INFO 8421 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : No active profile set, falling back to 1 default profile: "default"
+2024-09-17T13:45:21.055+05:30  INFO 8421 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2024-09-17T13:45:21.081+05:30  INFO 8421 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-17T13:45:21.082+05:30  INFO 8421 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-17T13:45:21.190+05:30  INFO 8421 --- [kafka-with-spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-17T13:45:21.191+05:30  INFO 8421 --- [kafka-with-spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2032 ms
+2024-09-17T13:45:22.073+05:30  INFO 8421 --- [kafka-with-spring] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = kafka-with-spring-admin-0
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-09-17T13:45:22.189+05:30  INFO 8421 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-17T13:45:22.191+05:30  INFO 8421 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-17T13:45:22.192+05:30  INFO 8421 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726560922188
+2024-09-17T13:45:22.765+05:30  INFO 8421 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for kafka-with-spring-admin-0 unregistered
+2024-09-17T13:45:22.779+05:30  INFO 8421 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-17T13:45:22.779+05:30  INFO 8421 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-17T13:45:22.780+05:30  INFO 8421 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-17T13:45:22.808+05:30  INFO 8421 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
+2024-09-17T13:45:22.831+05:30  INFO 8421 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Started KafkaProducerExample in 4.791 seconds (process running for 6.005)
+2024-09-17T13:46:05.148+05:30  INFO 8421 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-17T13:46:05.149+05:30  INFO 8421 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-17T13:46:05.154+05:30  INFO 8421 --- [kafka-with-spring] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-09-17T13:46:05.249+05:30  INFO 8421 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
 	acks = -1
 	auto.include.jmx.reporter = true
 	batch.size = 16384
@@ -782,108 +764,17 @@
 	transactional.id = null
 	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
 
-2024-09-16T18:01:11.571+05:30  INFO 60900 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
-2024-09-16T18:01:11.609+05:30  INFO 60900 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Instantiated an idempotent producer.
-2024-09-16T18:01:11.670+05:30  INFO 60900 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
-2024-09-16T18:01:11.670+05:30  INFO 60900 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
-2024-09-16T18:01:11.671+05:30  INFO 60900 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726489871669
-2024-09-16T18:01:11.709+05:30  INFO 60900 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=kafka-with-spring-producer-1] Cluster ID: 2_KdmikvTKqnUIGncrkRiQ
-2024-09-16T18:01:11.767+05:30  INFO 60900 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=kafka-with-spring-producer-1] ProducerId set to 2017 with epoch 0
-2024-09-16T18:05:58.873+05:30  INFO 60900 --- [kafka-with-spring] [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2024-09-16T18:05:58.897+05:30  INFO 60900 --- [kafka-with-spring] [RMI TCP Connection(14)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
-2024-09-16T18:05:58.926+05:30  INFO 60900 --- [kafka-with-spring] [RMI TCP Connection(14)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2024-09-16T18:05:58.926+05:30  INFO 60900 --- [kafka-with-spring] [RMI TCP Connection(14)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2024-09-16T18:05:58.927+05:30  INFO 60900 --- [kafka-with-spring] [RMI TCP Connection(14)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
-2024-09-16T18:05:58.927+05:30  INFO 60900 --- [kafka-with-spring] [RMI TCP Connection(14)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2024-09-16T18:05:58.929+05:30  INFO 60900 --- [kafka-with-spring] [RMI TCP Connection(14)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for kafka-with-spring-producer-1 unregistered
-2024-09-16T18:06:03.493+05:30  INFO 61823 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Starting KafkaProducerExample using Java 17.0.12 with PID 61823 (/home/krishnab/Desktop/true-track-sharing/kafka-producer-example/target/classes started by krishnab in /home/krishnab/Desktop/true-track-sharing/kafka-producer-example)
-2024-09-16T18:06:03.506+05:30  INFO 61823 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : No active profile set, falling back to 1 default profile: "default"
-2024-09-16T18:06:06.843+05:30  INFO 61823 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
-2024-09-16T18:06:06.880+05:30  INFO 61823 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-16T18:06:06.881+05:30  INFO 61823 --- [kafka-with-spring] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-16T18:06:07.071+05:30  INFO 61823 --- [kafka-with-spring] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-16T18:06:07.072+05:30  INFO 61823 --- [kafka-with-spring] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3311 ms
-2024-09-16T18:06:08.605+05:30  INFO 61823 --- [kafka-with-spring] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
-	auto.include.jmx.reporter = true
-	bootstrap.controllers = []
-	bootstrap.servers = [localhost:9092]
-	client.dns.lookup = use_all_dns_ips
-	client.id = kafka-with-spring-admin-0
-	connections.max.idle.ms = 300000
-	default.api.timeout.ms = 60000
-	enable.metrics.push = true
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retries = 2147483647
-	retry.backoff.max.ms = 1000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.connect.timeout.ms = null
-	sasl.login.read.timeout.ms = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.login.retry.backoff.max.ms = 10000
-	sasl.login.retry.backoff.ms = 100
-	sasl.mechanism = GSSAPI
-	sasl.oauthbearer.clock.skew.seconds = 30
-	sasl.oauthbearer.expected.audience = null
-	sasl.oauthbearer.expected.issuer = null
-	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
-	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
-	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
-	sasl.oauthbearer.jwks.endpoint.url = null
-	sasl.oauthbearer.scope.claim.name = scope
-	sasl.oauthbearer.sub.claim.name = sub
-	sasl.oauthbearer.token.endpoint.url = null
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	socket.connection.setup.timeout.max.ms = 30000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-
-2024-09-16T18:06:08.807+05:30  INFO 61823 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
-2024-09-16T18:06:08.810+05:30  INFO 61823 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
-2024-09-16T18:06:08.811+05:30  INFO 61823 --- [kafka-with-spring] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726490168804
-2024-09-16T18:06:09.694+05:30  INFO 61823 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for kafka-with-spring-admin-0 unregistered
-2024-09-16T18:06:09.712+05:30  INFO 61823 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
-2024-09-16T18:06:09.713+05:30  INFO 61823 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2024-09-16T18:06:09.713+05:30  INFO 61823 --- [kafka-with-spring] [kafka-admin-client-thread | kafka-with-spring-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
-2024-09-16T18:06:09.750+05:30  INFO 61823 --- [kafka-with-spring] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
-2024-09-16T18:06:09.784+05:30  INFO 61823 --- [kafka-with-spring] [main] c.kafka.producer.KafkaProducerExample    : Started KafkaProducerExample in 7.828 seconds (process running for 9.887)
-2024-09-16T18:26:10.302+05:30  INFO 61823 --- [kafka-with-spring] [RMI TCP Connection(28)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-17T13:46:05.297+05:30  INFO 8421 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-09-17T13:46:05.327+05:30  INFO 8421 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Instantiated an idempotent producer.
+2024-09-17T13:46:05.385+05:30  INFO 8421 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-17T13:46:05.386+05:30  INFO 8421 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-17T13:46:05.386+05:30  INFO 8421 --- [kafka-with-spring] [http-nio-9191-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1726560965385
+2024-09-17T13:46:05.419+05:30  INFO 8421 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=kafka-with-spring-producer-1] Cluster ID: sChIhnjYQ46IPqKRMvT7vg
+2024-09-17T13:46:05.423+05:30  INFO 8421 --- [kafka-with-spring] [kafka-producer-network-thread | kafka-with-spring-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=kafka-with-spring-producer-1] ProducerId set to 2 with epoch 0
+2024-09-17T13:53:25.809+05:30  INFO 8421 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-17T13:53:25.821+05:30  INFO 8421 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=kafka-with-spring-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-09-17T13:53:25.839+05:30  INFO 8421 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-17T13:53:25.840+05:30  INFO 8421 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-17T13:53:25.840+05:30  INFO 8421 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-09-17T13:53:25.841+05:30  INFO 8421 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-17T13:53:25.846+05:30  INFO 8421 --- [kafka-with-spring] [RMI TCP Connection(16)-127.0.0.1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for kafka-with-spring-producer-1 unregistered

@@ -23,7 +23,7 @@ public class EventController {
 	@GetMapping("/publish/{message}")
 	public ResponseEntity<?> publishMessage(@PathVariable String message) {
 		try {
-			for (int i = 0; i < 10000; i++) {
+			for (int i = 0; i < 10; i++) {
 				publisher.sendMessageToTopic(message + " : " + i);
 			}
 			return ResponseEntity.ok("Message published successfully");
@@ -32,7 +32,7 @@ public class EventController {
 		}
 	}
 
-	@PostMapping
+	@PostMapping("/publish")
 	public void publishEvents(@RequestBody Customer customer) {
 		publisher.sendEvetsToTopic(customer);
 	}

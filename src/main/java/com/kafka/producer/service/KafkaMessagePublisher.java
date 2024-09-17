@@ -18,15 +18,23 @@ public class KafkaMessagePublisher {
 	public void sendMessageToTopic(String message) {
 		// if the topic does not exists then spring boot will create the topic for us by
 		// using default kafka/config/server.properties
-		CompletableFuture<SendResult<String, Object>> future = template.send("customTopic", message);
-		future.whenComplete((result, ex) -> {
-			if (ex == null) {
-				System.out.println(
-						"Send message = [" + message + "] with offset=[" + result.getRecordMetadata().offset() + "]");
-			} else {
-				System.out.println("Unable to send message=[" + message + "] due to : " + ex.getMessage());
-			}
-		});
+//		CompletableFuture<SendResult<String, Object>> future = template.send("customTopic", message);
+
+		// 2 is the partition, all the messages will be published to the 2nd partition
+		CompletableFuture<SendResult<String, Object>> future = template.send("customTopic", 2, null, message);
+		template.send("customTopic",1,null,"Hii");
+		template.send("customTopic",1,null,"Hii");
+		template.send("customTopic",2,null,"Hello");
+		template.send("customTopic",2,null,"Hello");
+		template.send("customTopic",0,null,"Hellowww");
+//		future.whenComplete((result, ex) -> {
+//			if (ex == null) {
+//				System.out.println(
+//						"Send message = [" + message + "] with offset=[" + result.getRecordMetadata().offset() + "]");
+//			} else {
+//				System.out.println("Unable to send message=[" + message + "] due to : " + ex.getMessage());
+//			}
+//		});
 	}
 
 	public void sendEvetsToTopic(Customer customer) {
