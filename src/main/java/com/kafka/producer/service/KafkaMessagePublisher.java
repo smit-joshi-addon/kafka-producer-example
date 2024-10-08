@@ -21,7 +21,7 @@ public class KafkaMessagePublisher {
 //		CompletableFuture<SendResult<String, Object>> future = template.send("customTopic", message);
 
 		// 2 is the partition, all the messages will be published to the 2nd partition
-		CompletableFuture<SendResult<String, Object>> future = template.send("customTopic", 2, null, message);
+//		CompletableFuture<SendResult<String, Object>> future = template.send("customTopic", 2, null, message);
 		template.send("customTopic",1,null,"Hii");
 		template.send("customTopic",1,null,"Hii");
 		template.send("customTopic",2,null,"Hello");
